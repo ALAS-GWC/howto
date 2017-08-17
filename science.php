@@ -20,12 +20,6 @@ if($_POST["message"]) {
           <a href="contact.html">Contact</a>
       </div>
 
-      <h1>SCIENCE</h1>
-      <p>BIOLOGY</p>
-      <p>CHEMISTRY</p>
-      <p>AP BIOLOGY</p>
-      <p>AP PHYSICS 1</p>
-      <p>AP PHYSICS C</p>
     </body>
 
     <form action="science.php" method="post">
