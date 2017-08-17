@@ -1,63 +1,184 @@
 <html>
-    <head>
-      <title>Science</title>
-    </head>  
 
-    <body>
-      <div class="topnav" id="myTopnav">
-          <a href="highschool.html">Home</a> 
-          <a href="english.html">English</a>  
-          <a href="history.html">History</a>
-          <a href="math.html">Math</a>
-          <a href="science.html">Science</a>
-          <a href="college.html">College</a>
-          <a href="contact.html">Contact</a>
-      </div>
-        
-      <h1>SCIENCE</h1>
-      <p>BIOLOGY</p>
-      <p>CHEMISTRY</p>
-      <p>AP BIOLOGY</p>
-      <p>AP PHYSICS 1</p>
-      <p>AP PHYSICS C</p>
-    </body>
- 
-    <style>
-      /* Add a black background color to the top navigation */
-        .topnav {
-            background-color: #333;
-            overflow: hidden;
-        }
-        /* Style the links inside the navigation bar */
-        .topnav a {
-            float: left;
-            display: block;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-        }
-        /* Change the color of links on hover */
-        .topnav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-        /* Add a color to the active/current link */
-        .topnav a.active {
-            background-color: #4CAF50;
-            color: white;
-      }
-        
-      h1 {
-        color: black;
-        text-align: center;
-        font-size: -webkit-xxx-large;
-      }
-      p {
-        color: black;
-        text-align: center;
-        font-size: x-large;
-      }
-    </style>
+<head>
+  <title>Science</title>
+  <link href="styles.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="nav">
+    <div id="nav_wrapper">
+      <ul>
+        <li><a href="index.html">HOME</a>
+        </li>
+        <li><a href="english.html">ENGLISH</a>
+          <ul>
+            <li><a href="english1.html">ENGLISH 1</a></li>
+            <li><a href="english2.html">ENGLISH 2</a></li>
+            <li><a href="comp.html">AP COMPOSITION AND LANGUAGE</a></li>
+            <li><a href="lit.html">AP LITERATURE AND LANGUAGE</a></li>
+          </ul>
+        </li>
+        <li><a href="history.html">HISTORY</a>
+          <ul>
+            <li><a href="world.html">WORLD HISTORY</a></li>
+            <li><a href="euro.html">AP EUROPEAN HISTORY</a></li>
+            <li><a href="apush.html">AP US HISTORY</a></li>
+            <li><a href="apgov.html">AP GOVERNMENT</a></li>
+            <li><a href="apecon.html">AP ECONOMICS</a></li>
+          </ul>
+        </li>
+        <li><a href="math.html">MATH</a>
+          <ul>
+            <li><a href="algebra1.html">ALGEBRA 1</a></li>
+            <li><a href="geometry.html">GEOMETRY</a></li>
+            <li><a href="algebra2-trig.html">ALGEBRA 2/TRIGONOMETRY</a></li>
+            <li><a href="precalc.html">PRECALCULUS</a></li>
+            <li><a href="BC.html">AP CALCULUS BC</a></li>
+          </ul>
+        </li>
+        <li><a href="science.html">SCIENCE</a>
+          <ul>
+            <li><a href="bio.html">BIOLOGY</a></li>
+            <li><a href="chem.html">CHEMISTRY</a></li>
+            <li><a href="physics.html">PHYSICS</a></li>
+            <li><a href="apbio.html">AP BIOLOGY</a></li>
+            <li><a href="apphysics.html">AP PHYSICS 1</a></li>
+          </ul>
+        </li>
+        <li><a href="college.html">COLLEGE</a>
+        </li>
+        <li><a href="contact.html">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <div class="sciencia"></div>
+
+  <div id="sub">
+    <div id="sub_wrapper">
+      <ul>
+        <li><a href="bio.html">BIOLOGY</a></li>
+        <br>
+        <li><a href="chem.html">CHEMISTRY</a></li>
+        <br>
+        <li><a href="apbio.html">AP BIOLOGY</a></li>
+        <br>
+        <li><a href="apphysics.html">AP PHYSICS</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+
+<style>
+
+body  {
+  background-image: url("https://image.freepik.com/free-vector/science-background-design_1411-52.jpg");
+  background-size: 1475px 800px;
+  background-repeat: no-repeat;
+  padding: 0;
+  overflow-y: scroll;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 16px;
+  }
+
+  #nav{
+  background-color: #93afd2;
+  color: #666666;
+  }
+  #nav_wrapper{
+  width: 960px;
+  margin: 0 auto;
+  text-align: left;
+  }
+  #nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  }
+  #nav ul li{
+  display: inline-block;
+  }
+  #nav ul li:hover{
+  background-color: #a5bdd9;
+  }
+  #nav ul li img{
+  vertical-align: middle;
+  padding-left: 3px;
+  width: 13px;
+  }
+  #nav ul li a, visited{
+  color: #666666;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  }
+  #nav ul li a:hover{
+  color: #666666;
+  text-decoration: none;
+  }
+  #nav ul li:hover ul{
+  display: block;
+  }
+  #nav ul ul{
+  display: none;
+  position: absolute;
+  background-color:	#93afd2;
+  }
+  #nav ul ul li{
+  display: block;
+  }
+  #nav ul ul li a, visited{
+  color: #666666;
+  }
+  #nav ul ul li a:hover{
+  color: #666666;
+  }
+
+
+  #sub_wrapper{
+  width: 960px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 40px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  #sub ul{
+  list-style-type: none;
+  padding-top: 30%;
+  margin: 0;
+  position: relative;
+  }
+  #sub ul li{
+  float: none;
+  display: inline-block;
+  }
+  #sub ul li img{
+  vertical-align: middle;
+  padding-left: 3px;
+  width: 13px;
+  }
+  #sub ul li a, visited{
+  color: #ff8093;
+  padding: 15px;
+  text-decoration: none;
+  }
+  #sub ul li a:hover{
+  color: #ff8093;
+  text-decoration: none;
+  }
+  #sub ul ul li a, visited{
+  color: #ff8093;
+  }
+  #sub ul ul li a:hover{
+  color:	##ff8093;
+  }
+</style>
+
 </html>
