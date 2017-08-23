@@ -1,10 +1,21 @@
-<html>
+{% extends "base.html" %}
+{% load staticfiles %}
 
-<head>
-  <link rel="icon" type="image/png" href="img/howtohs.png">
-  <title>Algebra I</title>
-</head>
 
+<<<<<<< HEAD
+{% block title %}
+  Algebra I
+{% endblock title %}
+
+{% block header %}
+  ALGEBRA I
+{% endblock header %}
+
+
+{% block link %}
+<a href="{% static 'docs/AP English Language and Composition Practice Exam 1.pdf' %}" target="_blank">5 Steps to a 5: 500 Workbook Problems</a>
+{% endblock link %}
+=======
 <body>
   <div id="nav">
     <div id="nav_wrapper">
@@ -173,3 +184,4 @@ body  {
 </style>
 
 </html>
+>>>>>>> master
