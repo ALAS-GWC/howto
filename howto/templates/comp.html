@@ -1,10 +1,21 @@
-<html>
+{% extends "base.html" %}
+{% load staticfiles %}
 
-<head>
-  <link rel="icon" type="image/png" href="img/howtohs.png">
-  <title>AP Economics</title>
-</head>
 
+{% block title %}
+  AP English Language and Composition
+{% endblock title %}
+
+{% block header %}
+  AP ENGLISH LANGUAGE AND COMPOSITION
+{% endblock header %}
+
+
+<<<<<<< HEAD
+{% block link %}
+<a href="{% static 'docs/AP English Language and Composition Practice Exam 1.pdf' %}" target="_blank">5 Steps to a 5: 500 Workbook Problems</a>
+{% endblock link %}
+=======
 <body>
   <div id="nav">
     <div id="nav_wrapper">
@@ -54,27 +65,19 @@
   <br>
   <br>
   <br>
+
+    <div id="links">
+      <h1> AP ENGLISH LANGUAGE AND COMPOSITION</h1>
+      <p> LESSONS </p>
+      <p> PRACTICE EXAMS </p>
+      <li><a href="docs/AP English Language and Composition Practice Exam 1.pdf" target="_blank">My Max Score: Practice Exam</a></li>
+      <br>
+      <li><a href="docs/AP English Language and Composition 5 Steps to a 5 Workbook.pdf" target="_blank">5 Steps to a 5: 500 Workbook Problems</a></li>
+      <br>
+      <li><a href="docs/AP English and Language and Composition Pracitce Exam 2015.pdf" target="_blank">2015 Exam</a></li>
+
+    </div>
 </body>
-
-<div id="links">
-  <h1> AP MICROECONOMICS </h1>
-  <p> LESSONS </p>
-  <p> PRACTICE EXAMS </p>
-  <!-- <li><a href="file:///Users/gwcstudent/Documents/AP%20English%20Language%20and%20Composition%20Practice%20Exam%201.pdf" target="_blank">My Max Score: Practice Exam</a></li>
-  <li><a href="file:///Users/gwcstudent/Documents/AP%20English%20Language%20and%20Composition%20Workbook.pdf" target="_blank">5 Steps to a 5: 500 Workbook Problems</a></li>
-  <li><a href="http://apsubjects.weebly.com/uploads/2/0/5/3/20538716/ipe_2015_englangcomp.pdf" target="_blank">2015 Exam</a></li> -->
-
-</div>
-
-<div id="links1">
-  <h1> AP MACROECONOMICS </h1>
-  <p> LESSONS </p>
-  <p> PRACTICE EXAMS </p>
-  <!-- <li><a href="file:///Users/gwcstudent/Documents/AP%20English%20Language%20and%20Composition%20Practice%20Exam%201.pdf" target="_blank">My Max Score: Practice Exam</a></li>
-  <li><a href="file:///Users/gwcstudent/Documents/AP%20English%20Language%20and%20Composition%20Workbook.pdf" target="_blank">5 Steps to a 5: 500 Workbook Problems</a></li>
-  <li><a href="http://apsubjects.weebly.com/uploads/2/0/5/3/20538716/ipe_2015_englangcomp.pdf" target="_blank">2015 Exam</a></li> -->
-
-</div>
 
 
 <style>
@@ -178,12 +181,14 @@ body  {
   font-size: 20px;
   list-style: none;
   }
-
   h1 {
     font-size: 45px;
   }
   p{
     font-size: 35px;
   }
+
 </style>
+
 </html>
+>>>>>>> master

@@ -1,8 +1,29 @@
-<html>
+{% extends "base.html" %}
+{% load staticfiles %}
 
+<<<<<<< HEAD
+
+{% block title %}
+  AP Calculus BC
+{% endblock title %}
+
+{% block header %}
+  AP CALCULUS BC
+{% endblock header %}
+
+
+{% block link %}
+<a href="{% static 'docs/AP English Language and Composition Practice Exam 1.pdf' %}" target="_blank">5 Steps to a 5: 500 Workbook Problems</a>
+{% endblock link %}
+=======
 <head>
+<<<<<<< HEAD:howto/templates/BC.html
   <link rel="icon" type="image/png" href="img/howtohs.png">
-  <title>Geometry</title>
+  <title>AP Calculus BC</title>
+=======
+  <title>AP Calculus BC</title>
+  <link href="styles.css" type="text/css" rel="stylesheet" />
+>>>>>>> 4e6792ed8159d8f742370e28609c192c8a1568e9:BC.html
 </head>
 
 <body>
@@ -54,17 +75,18 @@
   <br>
   <br>
   <br>
+
+  <div id="links">
+    <h1> AP CALCULUS BC </h1>
+    <p> LESSONS </p>
+    <p> PRACTICE EXAMS </p>
+    <!-- <li><a href="file:///Users/gwcstudent/Documents/AP%20English%20Language%20and%20Composition%20Practice%20Exam%201.pdf" target="_blank">My Max Score: Practice Exam</a></li>
+    <li><a href="file:///Users/gwcstudent/Documents/AP%20English%20Language%20and%20Composition%20Workbook.pdf" target="_blank">5 Steps to a 5: 500 Workbook Problems</a></li>
+    <li><a href="http://apsubjects.weebly.com/uploads/2/0/5/3/20538716/ipe_2015_englangcomp.pdf" target="_blank">2015 Exam</a></li> -->
+
+  </div>
 </body>
 
-<div id="links">
-  <h1> GEOMETRY </h1>
-  <p> LESSONS </p>
-  <p> PRACTICE EXAMS </p>
-  <!-- <li><a href="file:///Users/gwcstudent/Documents/AP%20English%20Language%20and%20Composition%20Practice%20Exam%201.pdf" target="_blank">My Max Score: Practice Exam</a></li>
-  <li><a href="file:///Users/gwcstudent/Documents/AP%20English%20Language%20and%20Composition%20Workbook.pdf" target="_blank">5 Steps to a 5: 500 Workbook Problems</a></li>
-  <li><a href="http://apsubjects.weebly.com/uploads/2/0/5/3/20538716/ipe_2015_englangcomp.pdf" target="_blank">2015 Exam</a></li> -->
-
-</div>
 <style>
 
 body  {
@@ -166,13 +188,13 @@ body  {
   font-size: 20px;
   list-style: none;
   }
+
   h1 {
     font-size: 45px;
   }
   p{
     font-size: 35px;
   }
-
 </style>
-
 </html>
+>>>>>>> master

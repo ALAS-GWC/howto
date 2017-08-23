@@ -71,10 +71,19 @@
           <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Message"></textarea>
         </h>
 
+        <form method="post" action="sendmail.php">
+          Email: <input name="email" type="text" /><br>
+          Message:<br>
+          <textarea name="message" ></textarea><br>
+          <input type="submit" />
+        </form>
 
-        <div class="submit">
+        <!-- <div class="submit">
+          <form action="mailto:howtohs.alas@gmail.com">
           <input type="submit" value="SEND" id="button-blue"/>
-          <div class="ease"></div>
+        </form>
+          <div class="ease"></div> -->
+          <!-- <a href="mailto:howtohs.alas@gmail.com"><button>Text</button></a> -->
         </div>
       </form>
     </div>

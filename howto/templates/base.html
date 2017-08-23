@@ -1,8 +1,12 @@
+{% load staticfiles %}
+
 <html>
 
 <head>
-  <link rel="icon" type="image/png" href="img/howtohs.png">
-  <title>World History</title>
+  <link rel="icon" type="image/png" href="{% static 'img/howtohs.png' %}">
+  <title>{% block title %}{% endblock title %}</title>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+
 </head>
 
 <body>
@@ -19,7 +23,7 @@
         </li>
         <li><a href="history.html">HISTORY</a>
           <ul>
-            <li><a href="world.html">WORLD HISTORY</a></li>
+            <li><a href="world.html">AP WORLD HISTORY</a></li>
             <li><a href="euro.html">AP EUROPEAN HISTORY</a></li>
             <li><a href="apush.html">AP US HISTORY</a></li>
             <li><a href="apgov.html">AP GOVERNMENT</a></li>
@@ -57,7 +61,8 @@
 </body>
 
 <div id="links">
-  <h1> AP WORLD HISTORY</h1>
+  <h1>{% block header %}{% endblock header %}</h1>
   <p> LESSONS </p>
   <p> PRACTICE EXAMS </p>
+  <li>{% block link %}{% endblock link %}</li>
 </div>
