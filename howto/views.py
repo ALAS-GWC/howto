@@ -10,8 +10,8 @@ def index(request):
 def algebra1(request):
     return render(request, 'algebra1.html')
 
-def algebra2(request):
-    return render(request, 'algebra2.html')
+def algebra2-trig(request):
+    return render(request, 'algebra2-trig.html')
 
 def apbio(request):
     return render(request, 'apbio.html')
@@ -28,11 +28,8 @@ def apphysics(request):
 def apush(request):
     return render(request, 'apush.html')
 
-def base(request):
-    return render(request, 'base.html')
-
-def bc(request):
-    return render(request, 'bc.html')
+def BC(request):
+    return render(request, 'BC.html')
 
 def bio(request):
     return render(request, 'bio.html')
