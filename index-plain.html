@@ -1,0 +1,218 @@
+{% load staticfiles %}
+
+<html>
+
+<head>
+  <link rel="icon" type="image/png" href="img/howtohs.png">
+  <title>How To: High School</title>
+</head>
+
+<body>
+  <div id="nav">
+    <div id="nav_wrapper">
+      <ul>
+        <li><a href="index">HOME</a>
+        </li>
+        <li><a href="english.html">ENGLISH</a>
+          <ul>
+            <li><a href="comp">AP COMPOSITION AND LANGUAGE</a></li>
+            <li><a href="lit">AP LITERATURE AND LANGUAGE</a></li>
+          </ul>
+        </li>
+        <li><a href="history.html">HISTORY</a>
+          <ul>
+            <li><a href="world">AP WORLD HISTORY</a></li>
+            <li><a href="euro">AP EUROPEAN HISTORY</a></li>
+            <li><a href="apush">AP US HISTORY</a></li>
+            <li><a href="apgov">AP GOVERNMENT</a></li>
+            <li><a href="apecon">AP ECONOMICS</a></li>
+          </ul>
+        </li>
+        <li><a href="math.html">MATH</a>
+          <ul>
+            <li><a href="algebra1">ALGEBRA I</a></li>
+            <li><a href="geometry">GEOMETRY</a></li>
+            <li><a href="algebra2-trig">ALGEBRA II/TRIGONOMETRY</a></li>
+            <li><a href="precalc">PRECALCULUS</a></li>
+            <li><a href="BC">AP CALCULUS BC</a></li>
+          </ul>
+        </li>
+        <li><a href="science.html">SCIENCE</a>
+          <ul>
+            <li><a href="bio">BIOLOGY</a></li>
+            <li><a href="chem">CHEMISTRY</a></li>
+            <li><a href="physics">PHYSICS</a></li>
+            <li><a href="apbio">AP BIOLOGY</a></li>
+            <li><a href="apphysics">AP PHYSICS</a></li>
+          </ul>
+        </li>
+        <li><a href="college.html">COLLEGE</a>
+        </li>
+        <li><a href="contact.html">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="bgimg-1">
+    <div class="caption">
+        <span class="border" style="color: #000000"><h1>HOW TO: HIGH SCHOOL</h1><p>Welcome! We want to help you throughout your high school career!</p></span>
+    </div>
+  </div>
+
+  {% block content %}{% endblock content %}
+
+  <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+    <h3 style="text-align:center;">About Us</h3>
+    <p>Wow we are cool.</p>
+  </div>
+
+<div class="bgimg-2">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">sdhfjdskfhsdkfh</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#777;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+    <p>im hangryyyyyyyy.</p>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">ummmmmmm</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#282E34;text-align:center;padding:50px 80px;text-align: justify;">
+    <p>ooooooo bbbbbbbbbbbb</p>
+  </div>
+</div>
+
+<div class="bgimg-1">
+  <div class="caption">
+    <span class="border">cool.</span>
+  </div>
+</div>
+
+
+</body>
+
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #000000;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+ position: relative;
+ opacity: 0.65;
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+.bgimg-1 {
+ /*color: black;*/
+ background-image: url("https://68.media.tumblr.com/cab13882abf31ed85658bac9411cdea7/tumblr_oknzyryGVU1vfm3fdo1_1280.jpg");
+ min-height: 100%;
+ z-index: -1;
+}
+.bgimg-2 {
+  background-image: url("http://68.media.tumblr.com/d33364a57815a79bb5f7842cd1aaed6d/tumblr_oti96txtLL1vox11io1_1280.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("https://timedotcom.files.wordpress.com/2016/08/classroom.jpg?quality=85");
+  min-height: 400px;
+}
+
+.caption span.border {
+  color: black;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+
+  body{
+  padding: 0;
+  overflow-y: scroll;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 16px;
+  }
+
+  #nav{
+  background-color: #93afd2;
+  color: #666666;
+  text-align: left;
+  }
+  #nav_wrapper{
+
+  width: 960px;
+  margin: 0 auto;
+  }
+  #nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  }
+  #nav ul li{
+  display: inline-block;
+  }
+  #nav ul li:hover{
+  background-color: #a5bdd9;
+  }
+  #nav ul li img{
+  vertical-align: middle;
+  padding-left: 3px;
+  width: 13px;
+  }
+  #nav ul li a, visited{
+  color: #666666;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  }
+  #nav ul li a:hover{
+  color: #666666;
+  text-decoration: none;
+  }
+  #nav ul li:hover ul{
+  display: block;
+  }
+  #nav ul ul{
+  display: none;
+  position: absolute;
+  background-color:	#93afd2;
+  }
+  #nav ul ul li{
+  display: block;
+  }
+  #nav ul ul li a, visited{
+  color: #666666;
+  }
+  #nav ul ul li a:hover{
+  color: #666666;
+  }
+
+  h1 {
+      color: black;
+      text-align: center;
+      font-size: -webkit-xxx-large;
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  p {
+      color: black;
+      text-align: center;
+      font-size: xxx-large;
+  }
+</style>
+</html>
