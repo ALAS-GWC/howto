@@ -10,14 +10,14 @@ def index(request):
 def algebra1(request):
     return render(request, 'algebra1.html')
 
-def algebra2-trig(request):
+def algebra2trig(request):
     return render(request, 'algebra2-trig.html')
 
 def apbio(request):
     return render(request, 'apbio.html')
 
 def apecon(request):
-        return render(request, 'apecon.html')
+    return render(request, 'apecon.html')
 
 def apgov(request):
     return render(request, 'apgov.html')
