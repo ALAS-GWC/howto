@@ -21,5 +21,11 @@ urlpatterns = [
     url(r'^lit/$', views.lit, name='lit'),
     url(r'^physics/$', views.physics, name='physics'),
     url(r'^precalc/$', views.precalc, name='precalc'),
+    url(r'^english/$', views.english, name='english'),
+    url(r'^history/$', views.history, name='history'),
+    url(r'^math/$', views.math, name='math'),
+    url(r'^science/$', views.science, name='science'),
+    url(r'^college/$', views.college, name='college'),
+    url(r'^contact/$', views.contact, name='contact'),
     url(r'^admin/', admin.site.urls),
 ]

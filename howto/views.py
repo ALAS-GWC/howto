@@ -58,6 +58,24 @@ def precalc(request):
 def world(request):
     return render(request, 'world.html')
 
+def english(request):
+    return render(request, 'english.html')
+
+def math(request):
+    return render(request, 'math.html')
+
+def history(request):
+    return render(request, 'history.html')
+
+def college(request):
+    return render(request, 'college.html')
+
+def contact(request):
+    return render(request, 'contact.html')
+
+def science(request):
+    return render(request, 'science.html')
+
 
 # def signup(request):
 #     if request.method == 'POST':
